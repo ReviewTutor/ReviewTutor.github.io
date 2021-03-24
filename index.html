@@ -1,0 +1,3295 @@
+<html lang="en">
+
+<head>
+    <meta name="google-site-verification" content="1-dIn_xdFQTxu_h-DAHoXSUJZvFGWR_5JHLU85aUq1A" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/93ed4d26ef.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@500&family=Roboto+Slab&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+    <!-- Icons For Website -->
+    <link rel="shortcut icon"
+        href="https://user-images.githubusercontent.com/66401205/87232689-f9af2980-c38e-11ea-869f-3b3699903ee0.png"
+        type="image/x-icon" />
+    <link rel="apple-touch-icon"
+        href="https://user-images.githubusercontent.com/66401205/89822513-3e5cea80-db1e-11ea-8ea6-e93b7bb95e96.png">
+    <link rel="apple-touch-icon"
+        href="https://user-images.githubusercontent.com/66401205/89822519-3ef58100-db1e-11ea-9b10-d1646e0aa33d.png"
+        sizes="152x152">
+    <link rel="apple-touch-icon"
+        href="https://user-images.githubusercontent.com/66401205/89822522-3ef58100-db1e-11ea-827c-8e3907bca312.png"
+        sizes="167x167">
+    <link rel="apple-touch-icon"
+        href="https://user-images.githubusercontent.com/66401205/89822524-3ef58100-db1e-11ea-99eb-7c517a474c93.png"
+        sizes="180x180">
+    <link rel="icon"
+        href="https://user-images.githubusercontent.com/66401205/89824534-436f6900-db21-11ea-9755-c350ca49998f.png"
+        sizes="192x192">
+
+    <title>Review Tutor</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!--HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries-->
+    <!--WARNING: Respond.js doesn't work if you view the page via file://-->
+    <!--[if lt IE 9]> -->
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+
+    <script>
+        (function () {
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = 'https://app.termly.io/embed.min.js';
+            s.id = '38e577e9-84a1-4166-9037-0b322bc483f6';
+            s.setAttribute("data-name", "termly-embed-banner");
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+        })();
+    </script>
+
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        section {
+            color: 38b6ff;
+            border-radius: 0.5em;
+            padding: 0.5em;
+            position: absolute;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%)
+        }
+
+        header {
+            background-color: rgb(224, 224, 224);
+            color: #535b5f;
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+            height: 55px;
+            content: '';
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        footer {
+            background-color: #232323;
+            color: #ddd;
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+            position: relative;
+            bottom: 0;
+            height: 400px;
+            margin-bottom: -400px;
+            content: '';
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        main {
+            width: 100%;
+            margin: 0 auto;
+            min-height: calc(auto);
+        }
+
+        .container {
+            width: 70%;
+            margin: 20px auto;
+            overflow: auto;
+            height: 100%;
+        }
+
+        @media only screen and (max-width: 900px) {
+            .container {
+                width: 100%;
+            }
+        }
+
+        body {
+            background: #ebebeb;
+            color: 38b6ff;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+            margin-top: 800px;
+            padding: 0px;
+            padding-bottom: 40px;
+            height: 100%;
+        }
+
+        h1 {
+            color: rgb(0, 108, 187);
+            font-family: 'Roboto Slab', serif;
+            font-size: 50px;
+
+
+        }
+
+        h3 {
+            color: rgb(16, 42, 66);
+            font-size: 36px;
+            font-family: 'Balsamiq Sans', cursive;
+        }
+
+        h2 {
+            color: rgb(21, 55, 87);
+            font-size: 30px;
+            font-family: 'Balsamiq Sans';
+        }
+
+        h4 {
+            color: rgb(0, 118, 187);
+            font-size: 28px;
+            font-family: 'Balsamiq Sans', cursive;
+
+        }
+
+        p {
+            color: rgb(34, 53, 104);
+            font-family: 'Balsamiq Sans', cursive;
+        }
+
+        p.footer {
+            color: white;
+            font-family: 'Balsamiq Sans', cursive;
+            font-size: 14px;
+        }
+
+        p.footer1 {
+            color: white;
+            width: 100%;
+            font-size: 14px;
+        }
+
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            width: 100%;
+        }
+
+        .navbar1 {
+            border-radius: 0px;
+            color: rgb(219, 219, 219);
+            display: block;
+            margin: 8px 22px 8px 22px;
+            width: 98%;
+            margin-left: 1%;
+            margin-top: 20px;
+            padding: 0;
+            position: fixed;
+            z-index: 1000;
+            background-color: #e0e0e0;
+        }
+
+
+
+        li a {
+            display: block;
+            color: rgb(0, 71, 141);
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #38b6ff;
+            text-decoration: none;
+        }
+
+
+        .button {
+            font: 15px Arial;
+            text-decoration: none;
+            background-color: #6dc9ff;
+            color: #172964;
+            padding: 2px 4px 2px 4px;
+            border-top: 1px solid #CCCCCC;
+            border-right: 1px solid #172964;
+            border-bottom: 1px solid #172964;
+            border-left: 1px solid #CCCCCC;
+
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .horizontal:hover {
+            text-decoration: none;
+        }
+
+        vertical-menu {
+            width: 200px;
+        }
+
+        .vertical-menu a {
+            background-color: #cecece;
+            color: black;
+            display: block;
+            padding: 12px;
+            text-decoration: none;
+            font-size: 15px;
+            max-width: 300px;
+
+        }
+
+        .vertical-menu a:hover {
+            background-color: #afafaf;
+        }
+
+        .home {
+            margin-left: 30px;
+        }
+
+        .rightli.about {
+            margin-right: 30px;
+        }
+
+
+        .logo-image {
+            width: 125%;
+            height: auto;
+            overflow: hidden;
+            margin-left: 34%;
+            margin-right: 50%;
+            margin-top: -11px;
+
+        }
+
+
+        .logo-mobile {
+            width: 300px;
+            height: auto;
+            overflow: hidden;
+            margin-top: -89px;
+
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            font-family: Verdana, sans-serif;
+            margin: 0
+        }
+
+        .mySlides {
+            display: none
+        }
+
+        img {
+            vertical-align: middle;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .section1 {
+            background-color: rgb(235, 235, 235);
+            min-height: 400px;
+        }
+
+
+
+        .section111 {
+            margin-top: -100px;
+            background-color: rgb(235, 235, 235);
+            min-height: 50%;
+        }
+
+        .section2 {
+            background-color: #878787;
+            min-height: 520px;
+            padding-top: 0%;
+        }
+
+        .section222 {
+            background-color: rgb(200, 200, 200);
+            min-height: 540px;
+            padding-top: 0%;
+        }
+
+        #card {
+            background-color: #878787;
+            border-radius: 10px;
+            width: 30%;
+            margin: 1%;
+            height: 325px;
+            margin-top: 25px;
+            margin-left: 2%;
+        }
+
+        .section22 {
+            background-color: #878787;
+            height: 800px;
+            padding-top: 0%;
+        }
+
+        .typewriter h1 {
+            all: none;
+            border-right: 1px solid white;
+            white-space: nowrap;
+            overflow: hidden;
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: typewriter 2s steps(25) 1s 1 normal both;
+            font-family: 'Fira Code', monospace;
+            color: rgb(220, 220, 220);
+            font-size: 30px;
+        }
+
+        .typewriter p {
+            all: none;
+            color: rgb(220, 220, 220);
+            font-family: 'Fira Code', monospace;
+            text-align: left;
+            font-size: 30px;
+            animation-delay: 5s;
+            margin-left: -80px;
+
+        }
+
+
+        .section3 {
+            background-color: rgb(235, 235, 235);
+            min-height: 450px;
+        }
+
+        .section333 {
+            background-color: rgb(12, 12, 12);
+            min-height: 600px;
+        }
+
+        #section3 {
+
+            margin-bottom: -100px;
+            margin-top: -10px;
+            background-color: rgb(20, 20, 20);
+        }
+
+        hr {
+            display: none;
+        }
+
+        .first-column {
+            width: 60%;
+            float: left;
+        }
+
+        .second-column {
+            margin-top: 0px;
+            width: 40%;
+            height: 400px;
+            padding: 0 10px 0 0;
+            float: right;
+            background-image: url('https://user-images.githubusercontent.com/66401205/85236240-4041e180-b3ea-11ea-932e-694d1e78cc00.png');
+            background-repeat: no-repeat;
+            background-size: 400px;
+        }
+
+
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 10px;
+            height: 300px;
+            /* Should be removed. Only for demonstration */
+        }
+
+        .column1 {
+            float: left;
+            width: 50%;
+            padding: 10px;
+            height: 300px;
+            /* Should be removed. Only for demonstration */
+        }
+
+        select {
+            width: 80%;
+            background-color: #a3a3a3;
+            color: rgb(69, 69, 69);
+            height: 40px;
+        }
+
+        @media only screen and (min-width: 768px) {
+
+
+            li {
+                float: left;
+            }
+
+            #backgroundphone {
+                background-image: url('https://user-images.githubusercontent.com/66401205/88061985-3a990200-cb36-11ea-84a3-2faec8c7e8ca.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 520px;
+                margin-top: 20px;
+                width: 700px;
+            }
+
+            .button-column {
+                margin-left: 15%;
+            }
+
+            .landingbutton {
+                width: 160px;
+            }
+
+            .c1 {
+                width: 13.3%;
+            }
+
+            .landingsection {
+                height: 820px;
+            }
+
+            .typewriter h1 {
+                all: none;
+                color: rgb(220, 220, 220);
+                font-family: 'Fira Code', monospace;
+                text-align: left;
+                font-size: 25px;
+                animation-delay: 0s;
+                margin-left: -3px;
+                width: 435px;
+            }
+
+            .typewriter p {
+                all: none;
+                color: rgb(220, 220, 220);
+                font-family: 'Fira Code', monospace;
+                text-align: left;
+                font-size: 30px;
+                animation-delay: 5s;
+                margin-left: -80px;
+
+            }
+
+            .section22 {
+                background-color: #878787;
+                height: 480px;
+                padding-top: 0%;
+            }
+
+            .button1 {
+                position: relative;
+                padding: 10px 20px;
+                border: none;
+                background: none;
+                cursor: pointer;
+
+                font-family: 'Fira Code', monospace;
+                font-weight: 500;
+                text-transform: uppercase;
+                font-size: 20px;
+                color: var(--text-color);
+
+                background-color: var(--btn-color);
+                border-radius: 8px;
+                z-index: 0;
+                overflow: hidden;
+            }
+
+        }
+
+        .laptop {
+            width: 90%;
+        }
+
+
+        @media only screen and (max-width: 768px) {
+
+            .title3 {
+                padding: 5px;
+            }
+
+            p.footer {
+                margin-top: -75px;
+            }
+
+            .fa-lg {
+                font-size: 25;
+            }
+
+            #section4 {
+                background-color: rgb(34, 34, 34);
+                padding: 5px;
+            }
+
+            #section5 {
+                height: 550px;
+                background-color: rgb(34, 34, 34);
+                padding: 5px;
+            }
+
+            .section-column {
+                float: left;
+                padding: 10px;
+                margin-top: -75px;
+            }
+
+
+
+            #backgroundphone {
+                background-image: url('https://user-images.githubusercontent.com/66401205/89103307-c9333c00-d3de-11ea-9e47-366e5e48df4e.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 350px;
+                width: 100%;
+                margin-left: -2%;
+                margin-top: -60px;
+            }
+
+            #phonebg {
+                margin-top: -200px;
+            }
+
+            .section-column {
+                float: left;
+
+                padding: 10px;
+            }
+
+            #section3 {
+                height: 800px;
+                margin-bottom: -350px;
+            }
+
+
+
+            .button-column {
+                margin-left: -5%;
+            }
+
+            .landingsection {
+                height: 1100px;
+            }
+
+            .landingbutton {
+                width: 90%;
+                margin-right: 5%;
+            }
+
+            .c1 {
+                width: 100%;
+            }
+
+            p.landingheader {
+                font-size: 30px;
+                color: white;
+                font-family: 'Montserrat', sans-serif;
+                width: 90%;
+            }
+
+            #hundred {
+                height: 1000px;
+                padding-left: 5px;
+            }
+
+            #card {
+                width: 90%;
+                margin-left: 5%;
+                margin-right: 2%;
+                margin-top: 15px;
+                height: 370px;
+            }
+
+            .section222 {
+                height: 1500px;
+            }
+
+            .box .text {
+                all: none;
+                position: absolute;
+                z-index: 999;
+                margin: 0 auto;
+                left: 0;
+                right: 0;
+                top: 10%;
+                overflow: hidden;
+                /* Adjust this value to move the positioned div up and down */
+                height: 100%;
+                margin-left: 70px;
+                font-size: 14px;
+                /* Set the width of the positioned div */
+            }
+
+            .button1 {
+                position: relative;
+                padding: 10px 20px;
+                border: none;
+                background: none;
+                cursor: pointer;
+
+                font-family: 'Fira Code', monospace;
+                font-weight: 100;
+                text-transform: uppercase;
+                font-size: 14px;
+                color: var(--text-color);
+                background-color: var(--btn-color);
+                border-radius: 8px;
+                z-index: 0;
+                overflow: hidden;
+                margin-left: 200px;
+            }
+
+            .laptop {
+                width: 100%;
+            }
+
+            footer {
+                background-color: #222222;
+                background-image: linear-gradient(bottom, #181818 50%, #222222 50%);
+                background-image: -o-linear-gradient(bottom, #181818 50%, #222222 50%);
+                background-image: -moz-linear-gradient(bottom, #181818 50%, #222222 50%);
+                background-image: -webkit-linear-gradient(bottom, #181818 50%, #222222 50%);
+                background-image: -ms-linear-gradient(bottom, #181818 50%, #222222 50%);
+                height: 450px;
+                margin-bottom: -450px;
+
+            }
+
+            .first-column {
+                width: 100%;
+                padding-bottom: 10px;
+                float: none;
+            }
+
+            .second-column {
+                width: 80%;
+                padding-bottom: 10px;
+                float: none;
+                background-size: 320px;
+            }
+
+            .column {
+                width: 100%;
+                padding-bottom: 10px;
+                float: none;
+            }
+
+            .column1 {
+                width: 100%;
+                padding-bottom: 10px;
+                float: none;
+            }
+
+            .typewriter h1 {
+                all: none;
+                color: rgb(220, 220, 220);
+                font-family: 'Fira Code', monospace;
+                text-align: left;
+                font-size: 14px;
+                animation-delay: 0s;
+                margin-left: 0px;
+
+            }
+
+            .typewriter p {
+                all: none;
+                color: rgb(220, 220, 220);
+                font-family: 'Fira Code', monospace;
+                text-align: left;
+                font-size: 14px;
+                animation-delay: s;
+                margin-left: 40px;
+                margin-top: -40px;
+
+            }
+
+            p.cursor::after {
+                height: 15px;
+                width: 2px;
+            }
+
+            .section2 {
+                background-color: rgb(135, 135, 135);
+                min-height: 1150px;
+                padding-top: 0%;
+                margin-top: -125px;
+            }
+
+            #resize1 {
+                width: 90px;
+                height: auto;
+
+            }
+
+            .bigmob {
+                width: 400%;
+                height: auto;
+            }
+
+            .Copyright {
+                width: 100%;
+            }
+        }
+
+        ul.list {
+            -moz-column-count: 2;
+            -moz-column-gap: 2px;
+            -webkit-column-count: 4;
+            -webkit-column-gap: 2px;
+            column-count: 2;
+            column-gap: 2px;
+            background-color: #ebebeb;
+        }
+
+        select {
+            display: block;
+            position: static;
+        }
+
+        .section4 {
+            color: rgb(21, 55, 87);
+        }
+
+        .new {
+            color: rgb(34, 53, 104);
+            ;
+        }
+
+        .quiz {
+            width: 67%;
+        }
+
+
+
+        .quizbutton {
+            font: 15px Arial;
+            text-decoration: none;
+            background-color: #59c0fc;
+            color: #172964;
+            padding: 4px 16px 4px 16px;
+            border-top: 1px solid #CCCCCC;
+            border-right: 1px solid #172964;
+            border-bottom: 1px solid #172964;
+            border-left: 1px solid #CCCCCC;
+            border-radius: 10px;
+            width: 50%;
+        }
+
+        .sect {
+            border-radius: 5px;
+            background-color: #a3a3a3;
+        }
+
+        .img1 {
+            animation-duration: 2s;
+            /* don't forget to set a duration! */
+        }
+
+
+        .footerwhite {
+            color: white;
+            font-family: 'Roboto Slab', serif;
+            margin-right: 16%;
+            font-size: 40px;
+            text-align: left;
+
+        }
+
+        .vertical-line {
+            display: grid;
+            border-left: 1px solid #ccc;
+            margin-left: 40%;
+            margin-right: 40%;
+            height: 200px;
+        }
+
+        .column55 {
+            width: 13%;
+            padding-bottom: 10px;
+            float: left;
+            margin-left: 1%;
+        }
+
+        .fab {
+            font-size: 35px;
+        }
+
+        .far {
+            font-size: 35px;
+        }
+
+        .fab:hover {
+            color: rgb(224, 60, 150);
+        }
+
+        .far:hover {
+            color: rgb(224, 60, 150);
+        }
+
+        .footerlogo {
+            height: 100px;
+            width: auto;
+        }
+
+        .contact {
+            height: 100px;
+            margin-top: 30px;
+            margin-left: 10%;
+        }
+
+        .abcd {
+            color: white;
+        }
+
+        .column66 {
+            width: 15%;
+            float: left;
+            margin-left: 20%;
+        }
+
+        .footerlink {
+            all: none;
+            font-size: 15px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .footerlink:hover {
+            color: rgb(224, 60, 150);
+            text-decoration: none;
+        }
+
+        #send {
+            background-color: rgb(34, 53, 104);
+            border-width: 0px;
+            height: 50px;
+            width: 180px;
+            font-family: 'Mukta', sans-serif;
+            font-family: 'Roboto Slab', serif;
+            font-size: 18px;
+            margin-top: 7px;
+        }
+
+        #send:hover {
+            background-color: rgb(224, 60, 150);
+            color: white;
+        }
+
+        input[type=email] {
+            background-color: inherit;
+            border-width: 2px;
+            border-color: rgb(255, 255, 255);
+            padding: 6px;
+            width: 300px;
+            height: 50px;
+            color: whitesmoke;
+            font-family: 'Ubuntu Condensed', sans-serif;
+            font-size: 14px;
+            margin-bottom: 13px;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            -webkit-transition: 0.5s;
+            transition: 0.5s;
+        }
+
+        input[type=email]:focus {
+            border-bottom: 2px solid rgb(224, 60, 150);
+        }
+
+        .footerwhite1 {
+            color: white;
+            font-family: 'Roboto Slab', serif;
+            margin-right: 16%;
+            font-size: 20px;
+            text-align: left;
+
+        }
+
+        .form {
+            text-align: left;
+        }
+
+        *:focus {
+            outline: none;
+        }
+
+        .column33 {
+            padding-bottom: 10px;
+            float: left;
+            margin-left: 8%;
+            margin-top: 12px;
+        }
+
+        .Copyright {
+            width: 30%;
+            margin-left: 30%;
+        }
+
+        .size {
+            font-size: px;
+        }
+
+        i {
+            position: static;
+            ;
+        }
+
+        @media only screen and (min-width: 768px) {
+
+            #sect {
+                height: 450px;
+            }
+
+            #section4 {
+                height: 850px;
+                margin-bottom: -350px;
+                margin-top: -20px;
+                background-color: rgb(20, 20, 20);
+            }
+
+            .section-column {
+                float: left;
+                width: 44%;
+                padding: 10px;
+                margin-left: 50px;
+                margin-top: 30px;
+            }
+
+
+
+
+            p.landingheader {
+                width: 43%;
+            }
+
+            .column33 {
+                width: 40%;
+                padding-bottom: 10px;
+                float: left;
+                margin-left: 8%;
+                margin-top: -250px;
+            }
+
+            .box .text {
+                position: absolute;
+                z-index: 999;
+                margin: 0 auto;
+                left: 0;
+                right: 0;
+                text-align: center;
+                top: 10%;
+                overflow: hidden;
+                /* Adjust this value to move the positioned div up and down */
+                height: 100%;
+                width: 80%;
+                margin-left: 128px;
+                /* Set the width of the positioned div */
+
+            }
+
+            p.cursor::after {
+                height: 24px;
+                width: 3px;
+            }
+        }
+
+
+        #column66 {
+            width: 38%;
+            float: left;
+            margin-left: 7%;
+        }
+
+        .mobfooter {
+            height: 450px;
+        }
+
+        .contact1 {
+            margin-top: 20px;
+            margin-left: 5%;
+        }
+
+        .column555 {
+            width: 16%;
+            padding: 30px;
+            float: left;
+        }
+
+        #resize11 {
+            width: 150px;
+            height: auto;
+
+        }
+
+        .footerwhite11 {
+            color: white;
+            font-family: 'Roboto Slab', serif;
+            margin-right: 2%;
+            font-size: 20px;
+            text-align: left;
+        }
+
+        .mob {
+            text-align: left;
+        }
+
+        .mobfooterp2 {
+            height: 420px;
+            background-color: #181818;
+            margin-top: 420px;
+        }
+
+        #success-msg {
+            color: white;
+            font-family: 'Roboto Slab', serif;
+            margin-right: 16%;
+            font-size: 40px;
+            text-align: left;
+            display: none;
+            margin-top: 40px;
+        }
+
+        .typewriter {
+            position: absolute;
+        }
+
+        @keyframes typewriter {
+            0% {
+                width: 0;
+                border-right: none;
+            }
+
+            0.1% {
+                border-right: 1px solid rgb(220, 220, 220);
+            }
+
+            99.9% {
+                border-right: 1px solid rgb(220, 220, 220);
+            }
+
+            100% {
+                border: none;
+            }
+        }
+
+
+        a {
+            color: rgb(220, 220, 220);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        .output {
+            text-align: center;
+            font-family: 'Fira Code', monospace;
+            color: rgb(220, 220, 220);
+        }
+
+        /* Cursor Styling */
+
+        .cursor::after {
+            content: '';
+            display: inline-block;
+            margin-left: 3px;
+            background-color: rgb(220, 220, 220);
+            animation-name: blink;
+            animation-duration: 0.5s;
+            animation-iteration-count: infinite;
+        }
+
+        h1.cursor::after {
+            height: 15px;
+            width: 2px;
+        }
+
+
+
+        @keyframes blink {
+            0% {
+                opacity: 1;
+            }
+
+            49% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }
+
+        .box {
+            position: relative;
+            display: inline-block;
+            /* Make the width of box same as image */
+        }
+
+        .text1 {
+            position: absolute;
+            z-index: 999;
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            top: 60%;
+            overflow: hidden;
+            /* Adjust this value to move the positioned div up and down */
+            margin-left: -120px;
+            /* Set the width of the positioned div */
+        }
+
+
+        .blue {
+            color: rgb(0, 118, 187);
+        }
+
+        :root {
+            --bubble-color: hsla(210, 50%, 85%, 1);
+            --text-color: rgb(8, 8, 8);
+            --shadow-color: hsla(210, 40%, 52%, .4);
+            --btn-color: hsl(202, 80%, 42%);
+            --bg-color: #141218;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .button1:focus {
+            outline-color: transparent;
+            box-shadow: var(--btn-color) 2px 2px 22px;
+        }
+
+        .right::after,
+        .button1::after {
+            content: var(--content);
+            display: block;
+            position: absolute;
+            white-space: nowrap;
+            padding: 40px 40px;
+            pointer-events: none;
+
+        }
+
+        .button1:before {
+            color: var(--text-color);
+        }
+
+        .button1::after {
+            font-weight: 20;
+            top: -30px;
+            left: -20px;
+            color: var(--bubble-color);
+        }
+
+        .right,
+        .left {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+        }
+
+        .right {
+            left: 66%;
+
+        }
+
+        .left {
+            right: 66%;
+        }
+
+        .right::after {
+            top: -30px;
+            left: calc(-66% - 20px);
+
+            background-color: var(--bg-color);
+            color: transparent;
+            transition: transform .4s ease-out;
+            transform: translate(0, -90%) rotate(0deg);
+        }
+
+        .button1:hover .right::after {
+            transform: translate(0, -47%) rotate(0deg);
+
+        }
+
+        .button1 .right:hover::after {
+            transform: translate(0, -50%) rotate(-7deg);
+
+        }
+
+        .button1 .left:hover~.right::after {
+            transform: translate(0, -50%) rotate(7deg);
+
+        }
+
+        /* bubbles */
+        .button1::before {
+            content: '';
+            pointer-events: none;
+            opacity: .6;
+            background:
+                radial-gradient(circle at 20% 35%, transparent 0, transparent 2px, var(--bubble-color) 3px, var(--bubble-color) 4px, transparent 4px),
+                radial-gradient(circle at 75% 44%, transparent 0, transparent 2px, var(--bubble-color) 3px, var(--bubble-color) 4px, transparent 4px),
+                radial-gradient(circle at 46% 52%, transparent 0, transparent 4px, var(--bubble-color) 5px, var(--bubble-color) 6px, transparent 6px);
+
+            width: 100%;
+            height: 300%;
+            top: 0;
+            left: 0;
+            position: absolute;
+            animation: bubbles 5s linear infinite both;
+        }
+
+        @keyframes bubbles {
+            from {
+                transform: translate();
+            }
+
+            to {
+                transform: translate(0, -66.666%);
+            }
+        }
+
+        #learn {
+            -webkit-animation: 3s ease 0s normal forwards 1 fadein;
+            animation: 3s ease 0s normal forwards 1 fadein;
+        }
+
+        @keyframes fadein {
+            0% {
+                opacity: 0;
+            }
+
+            66% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @-webkit-keyframes fadein {
+            0% {
+                opacity: 0;
+            }
+
+            66% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .landingsection {
+
+            background-image: url('https://user-images.githubusercontent.com/66401205/87862879-cb978f80-c922-11ea-8cc2-0ae8a212c0ec.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            top: 500px;
+            z-index: 1;
+        }
+
+        h1.landingheader {
+            color: white;
+            font-family: 'Roboto Slab', serif;
+            font-size: 100px;
+        }
+
+        p.landingheader {
+            font-size: 30px;
+            color: white;
+            font-family: 'Roboto Slab', serif;
+        }
+
+        .button-column {
+            width: 60%;
+
+        }
+
+        .c1 {
+
+            margin-left: 5%;
+            margin-right: 5%;
+            float: left;
+            margin-top: 2%;
+        }
+
+        .landingbutton {
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            border-radius: 10px;
+
+        }
+
+        .button2 {
+            background-color: white;
+            color: #286bff;
+            border: 2px solid #286bff;
+        }
+
+        .button2:hover {
+            background-color: #286bff;
+            color: #95d8ff;
+        }
+
+        nav ul>li.submenu>a:after {
+            position: relative;
+            float: right;
+            content: '';
+            margin-left: 10px;
+            margin-top: 8px;
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+            border-top: 5px solid rgb(21, 55, 87);
+            border-bottom: 5px solid transparent;
+        }
+
+        nav ul>li.submenu:hover>a:after {
+            margin-top: 2px;
+            border-top: 5px solid transparent;
+            border-bottom: 5px solid rgb(21, 55, 87);
+        }
+
+
+
+        /* second stage (the mega-menu) */
+
+        nav ul.megamenu {
+            position: absolute;
+            display: flex;
+            flex-wrap: wrap;
+            width: 80%;
+            top: -9999px;
+            left: 1%;
+            right: -15%;
+            height: 600px;
+            padding: 15px;
+            background-image: url('https://user-images.githubusercontent.com/66401205/88058354-54841600-cb31-11ea-89d1-a969ab0ab9c6.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: left;
+            border-top: 5px solid #4096ee;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+            z-index: 1;
+        }
+
+        nav ul li:hover ul.megamenu {
+            top: 100%;
+        }
+
+        /* third stage (child-menus in the mega-menu) */
+
+        nav ul.megamenu ul {
+            width: 25%;
+            margin-bottom: 0px;
+            color: rgb(161, 221, 255);
+            box-shadow: none;
+        }
+
+        nav ul.megamenu h4 {
+            margin-bottom: 15px;
+        }
+
+        nav ul.megamenu ul li {
+            display: block;
+        }
+
+        nav ul.megamenu ul li a {
+            margin-top: 0px;
+            transition: 0.5s;
+            color: rgb(161, 221, 255);
+        }
+
+        nav ul.megamenu ul li a:hover {
+            color: rgb(161, 221, 255);
+        }
+
+        .menulist {
+            display: flexbox;
+            width: 45%;
+            margin-top: -16px;
+        }
+
+        .menulist:hover {
+            text-decoration: underline;
+        }
+
+        .school:hover {
+            background-color: inherit;
+        }
+
+        .menuweb {
+            color: white;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 20px;
+            margin-top: 40px;
+            margin-left: -10px;
+        }
+
+
+
+        .navbar-brand {
+            float: left;
+            height: 50px;
+            padding: 15px 15px;
+            font-size: 18px;
+            line-height: 20px;
+            width: 58%;
+        }
+
+
+
+
+
+
+
+
+
+        /* Navbar mobile
+-------------------------------------------------- */
+
+        .st-navbar-static-top {
+            padding: 0;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .st-navbar-mobile {
+            font-family: inherit;
+            font-size: 14px;
+            font-weight: 400;
+            position: relative;
+            z-index: auto;
+        }
+
+        .st-navbar-mobile:before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+
+
+        /* Navbar mobile header
+-------------------------------------------------- */
+
+        .st-navbar-mobile-header {
+            width: 100%;
+            height: 60px;
+        }
+
+
+
+        /* Navbar mobile header logo
+-------------------------------------------------- */
+
+        .st-navbar-mobile-header-img {
+            float: left;
+            margin: 17px 0 0;
+        }
+
+        .st-navbar-mobile-header-img>img {
+            width: auto;
+            height: 40px;
+            margin-top: -10px;
+        }
+
+
+
+        /* Navbar mobile header menu
+-------------------------------------------------- */
+
+        .st-navbar-mobile-header-menu {
+            float: right;
+        }
+
+        .st-navbar-mobile-header-menu-nav {
+            margin: 18px 0 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .st-navbar-mobile-header-menu-nav li {
+            float: left;
+        }
+
+        .st-navbar-mobile-header-menu-nav li a {
+            font-size: 22px;
+            line-height: 0;
+            padding: 0px 15px 0px 15px;
+            margin: 0;
+            border: 0;
+            display: block;
+            cursor: pointer;
+        }
+
+        .st-navbar-mobile-header-menu-nav li:first-child a {
+            padding-left: 0;
+        }
+
+        .st-navbar-mobile-header-menu-nav li:last-child a {
+            padding-right: 0;
+        }
+
+
+
+        /* Navbar mobile nav collapse
+-------------------------------------------------- */
+
+        .st-navbar-mobile-nav-collapse {
+            display: none;
+            padding: 0;
+            margin-right: -15px;
+            margin-left: -15px;
+            margin-top: -10px;
+        }
+
+
+
+        /* Navbar mobile nav
+-------------------------------------------------- */
+
+        .st-navbar-mobile-nav {
+            position: relative;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            text-align: left;
+            z-index: auto;
+        }
+
+        .st-navbar-mobile-nav:before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        .st-navbar-mobile-nav .st-navbar-mobile-dropdown-menu {
+            position: static;
+            float: none;
+            display: none;
+            list-style: none;
+            width: auto;
+            padding: 0;
+            border: 0;
+            box-shadow: none;
+            z-index: 1000;
+        }
+
+        .st-navbar-mobile-nav .st-navbar-mobile-dropdown-menu:before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        .st-navbar-mobile-nav>li>a {
+            display: block;
+            padding-top: 10px;
+            padding-right: 15px;
+            padding-bottom: 10px;
+            padding-left: 15px;
+        }
+
+        .st-navbar-mobile-nav>li>a.st-submenu-toggle {
+            float: right;
+            display: block;
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+
+        .st-navbar-mobile-nav .st-navbar-mobile-dropdown-menu>li>a {
+            display: block;
+            font-size: 13px;
+            padding-top: 8px;
+            padding-right: 15px;
+            padding-bottom: 8px;
+            padding-left: 31px;
+        }
+
+        .st-navbar-mobile-nav .st-navbar-mobile-dropdown-menu>li>ul>li>a {
+            display: block;
+            font-size: 13px;
+            padding-top: 8px;
+            padding-right: 15px;
+            padding-bottom: 8px;
+            padding-left: 47px;
+        }
+
+        .st-navbar-mobile-nav .st-navbar-mobile-dropdown-menu>li>a.st-submenu-toggle,
+        .st-navbar-mobile-nav .st-navbar-mobile-dropdown-menu>li>ul>li>a.st-submenu-toggle {
+            float: right;
+            display: block;
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+
+
+
+        /* Navbar mobile nav dropdowns icon animation
+-------------------------------------------------- */
+
+        .st-navbar-mobile-nav li.st-submenu-parent>a.st-submenu-toggle>i {
+            -webkit-transition: all 0.2s ease-out;
+            -moz-transition: all 0.2s ease-out;
+            -ms-transition: all 0.2s ease-out;
+            -o-transition: all 0.2s ease-out;
+            transition: all 0.2s ease-out;
+        }
+
+        .st-navbar-mobile-nav li.st-submenu-open>a.st-submenu-toggle>i {
+            -webkit-transform: rotate(-180deg);
+            -moz-transform: rotate(-180deg);
+            -ms-transform: rotate(-180deg);
+            -o-transform: rotate(-180deg);
+            transform: rotate(-180deg);
+        }
+
+
+
+        /* Navbar mobile all styles
+-------------------------------------------------- */
+
+        /*** Navbar mobile ***/
+        .st-navbar-mobile {
+            color: #676767;
+        }
+
+        .st-navbar-mobile:before {
+            background-color: rgba(33, 33, 33, 0.8);
+        }
+
+
+        /*** Navbar mobile header menu ***/
+        .st-navbar-mobile-header-menu-nav li a {
+            /*background-color: #111111;*/
+            color: #ffffff;
+        }
+
+        .st-navbar-mobile-header-menu-nav li a.st-navbar-mobile-toggle.open {
+            color: #aaaaaa;
+        }
+
+        .st-navbar-mobile-header-menu-nav li a:hover,
+        .st-navbar-mobile-header-menu-nav li a:focus {
+            /*background-color: transparent;*/
+            color: #aaaaaa;
+        }
+
+        .st-navbar-mobile-header-menu-nav li+li {
+            border-left: 1px solid #ffffff;
+        }
+
+
+        /*** Navbar mobile nav ***/
+        .st-navbar-mobile-nav:before {
+            background-color: #333333;
+        }
+
+        .st-navbar-mobile-nav li {
+            border-top: 1px solid #272727;
+        }
+
+
+        /*** Navbar mobile nav a ***/
+        .st-navbar-mobile-nav li>a,
+        .st-navbar-mobile-nav li>a>i {
+            color: #dddddd;
+            background-color: #333333;
+        }
+
+
+        /*** Navbar mobile nav a:hover ***/
+        .st-navbar-mobile-nav li>a:hover,
+        .st-navbar-mobile-nav li>a:hover>i {
+            color: #aaaaaa;
+            background-color: #3e3e3e;
+        }
+
+
+        /*** Navbar mobile nav a:focus ***/
+        .st-navbar-mobile-nav li>a:focus,
+        .st-navbar-mobile-nav li>a:focus>i {
+            color: #aaaaaa;
+            background-color: #3e3e3e;
+        }
+
+
+        /*** Navbar mobile nav dropdows a:hover ***/
+        .st-navbar-mobile-nav li.st-submenu-open>a:hover,
+        .st-navbar-mobile-nav li.st-submenu-open>a:hover>i {
+            color: #aaaaaa;
+            background-color: #3e3e3e;
+        }
+
+
+        /*** Navbar mobile nav dropdows a:focus ***/
+        .st-navbar-mobile-nav li.st-submenu-open>a,
+        .st-navbar-mobile-nav li.st-submenu-open>a>i,
+        .st-navbar-mobile-nav li.st-submenu-open>a:focus,
+        .st-navbar-mobile-nav li.st-submenu-open>a:focus>i {
+            color: #aaaaaa;
+            background-color: #3e3e3e;
+        }
+
+        .column-landscape {
+            width: 48%;
+            float: left;
+            padding: 10px;
+            margin-right: 5px;
+        }
+
+        .column-landscape1 {
+            width: 40%;
+            float: left;
+            padding: 10px;
+            margin-left: 50px;
+        }
+
+        @media only screen and (max-width: 900px) and (min-width: 650px) {
+
+
+
+            .section11111 {
+                background-color: rgb(235, 235, 235);
+                height: 1150px;
+            }
+
+            .EFAIMG {
+                height: 80vh;
+            }
+
+
+            .dodrawing {
+                width: 80%;
+            }
+
+
+            .hide2 {
+                display: block;
+            }
+
+            .hide1 {
+                display: none;
+            }
+
+            #card {
+                height: 290px;
+            }
+
+            .section222 {
+                height: 1150px
+            }
+
+            #backgroundphone {
+                height: 600px
+            }
+
+            .families__header {
+                margin-top: 100px;
+                height: 95px;
+            }
+
+            .laptop {
+                width: 80%;
+            }
+
+            .typewriter h1 {
+                margin-left: -75px;
+                font-size: 20px;
+                width: 50%;
+                overflow-x: hidden;
+            }
+
+            .typewriter p {
+                font-size: 20px;
+                width: 50%;
+                margin-left: 90px;
+                margin-top: -30px
+            }
+
+            .second-column {
+                background-size: 400px;
+            }
+
+            #hundred {
+                height: 830px;
+
+            }
+
+            .column33 {
+                width: 600px;
+            }
+
+            .landingsection {
+                height: 620px;
+            }
+
+            .section111 {
+                margin-top: 0px;
+                background-color: rgb(235, 235, 235);
+                min-height: 50%;
+            }
+
+            .column45 {
+                float: left;
+                width: 30%;
+                margin: 5%;
+            }
+
+            .column456 {
+                float: left;
+                width: 50%;
+                margin: 5%;
+            }
+
+            .row {
+                margin: 0%;
+                width: 100%;
+            }
+
+            #section4 {
+                height: 850px;
+            }
+
+            .contact1 {
+                margin-left: 16%;
+            }
+
+            #column66 {
+                margin-left: 2.5%;
+            }
+        }
+
+        @media only screen and (max-width: 649px) {
+
+            .section11111 {
+                background-color: rgb(235, 235, 235);
+                height: 1350px;
+            }
+
+            .hide2 {
+                display: none;
+            }
+
+            #section4 {
+                height: 1080px;
+            }
+
+            .dodrawing {
+                width: 85%;
+            }
+
+            .EFAIMG {
+                height: 48vh;
+            }
+        }
+
+        @media only screen and (min-width: 901px) {
+
+            .section11111 {
+                background-color: rgb(235, 235, 235);
+                height: 550px;
+            }
+
+            .EFAIMG {
+                height: 48vh;
+            }
+
+            .hide2 {
+                display: none;
+            }
+
+            .dodrawing {
+                width: 60%;
+            }
+        }
+
+        .hideimg1 {
+            display: none;
+        }
+
+        .section6 {
+            background-color: rgb(135, 135, 135);
+            min-height: 800px;
+            padding-top: 0%;
+        }
+
+        .bottomleft {
+            width: 25%;
+            margin-top: 80px;
+            margin-left: -75%;
+        }
+
+        .EFA {
+            color: white;
+            font-size: 28px;
+            font-family: 'Balsamiq Sans', cursive;
+        }
+
+        .columnbottom {
+            float: left;
+            width: 50%;
+            padding: 10px;
+        }
+
+        .EFATitle {
+            color: rgb(42, 128, 42);
+            font-size: 40px;
+            margin-top: 0px;
+            font-family: 'Balsamiq Sans', cursive;
+        }
+
+        .EFAtext1 {
+            color: rgb(0, 108, 187);
+            font-size: 20px;
+            width: 90%;
+            font-family: 'Balsamiq Sans', cursive;
+        }
+
+
+        .title2 {
+            color: white;
+            font-family: 'Roboto Slab', serif;
+        }
+
+        .moveup {
+            margin-top: -50px;
+        }
+
+
+        .title3 {
+            color: rgb(0, 108, 187);
+            font-family: 'Roboto Slab', serif;
+        }
+
+
+        .btn-black {
+            background-color: #000;
+            color: rgb(200, 200, 200);
+            cursor: pointer;
+            padding: 20px 10px;
+        }
+
+        .btn-black:hover {
+            background-color: rgb(180, 180, 180);
+            text-decoration: none;
+        }
+
+        .btn {
+            appearance: none;
+            border: 0;
+            border-radius: 40px;
+            box-sizing: border-box;
+            display: block;
+            font-size: 14px;
+            font-weight: normal;
+            letter-spacing: 0.05em;
+            line-height: 16px;
+            outline: 0;
+            padding: 13px 10px;
+            text-decoration: none;
+            text-transform: uppercase;
+            margin-top: 20px;
+        }
+
+        .btn a:hover {
+            text-decoration: none;
+            color: black;
+        }
+
+        .what {
+            color: black;
+            font-size: 25px;
+            width: 90%;
+            font-family: 'Balsamiq Sans', cursive;
+            padding-left: 15px;
+        }
+
+        #hundo {
+            width: 100%;
+            margin-top: -16px;
+        }
+
+        .families__header {
+            background: linear-gradient(171deg, #007faa, #0060ce);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 62px;
+            margin-top: 2%;
+            font-family: 'Roboto Slab', serif;
+        }
+
+        p.iphonetext {
+            color: white;
+            font-size: 20px;
+            width: 100%;
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 52.25%;
+            padding-top: 20px;
+            height: 0;
+            overflow: hidden;
+            margin-right: 7.5px;
+            margin-left: 7.5px;
+        }
+
+        .video-container iframe,
+        .video-container object,
+        .video-container embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<div class="hidden-lg hidden-md">
+    <header id="st-navbar-mobile-wrapper" class="st-navbar-static-top " role="banner">
+        <div class="st-navbar-mobile">
+            <div class="container-fluid">
+                <div class="st-navbar-mobile-header">
+                    <a class="st-navbar-mobile-header-img" href="index.html">
+                        <img
+                            src="https://user-images.githubusercontent.com/66401205/87966100-c2293700-ca8a-11ea-8543-7b3d7e18d16f.png">
+                    </a>
+                    <div class="st-navbar-mobile-header-menu">
+                        <ul class="st-navbar-mobile-header-menu-nav">
+                            <li><a class="st-navbar-mobile-toggle"><i class="fa fa-bars fa-lg"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <nav class="st-navbar-mobile-nav-collapse" role="navigation">
+                    <ul class="st-navbar-mobile-nav">
+                        <li><a href="https://reviewtutor.github.io/">Home</a></li>
+                        <li><a href="https://reviewtutor.github.io/contact/">Contact</a></li>
+                        <li><a href="#">Classes</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Grades</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="https://reviewtutor.github.io/Kindergarten/">Kindergarten</a></li>
+                                        <li><a href="https://reviewtutor.github.io/1stGrade/">1st grade</a></li>
+                                        <li><a href="https://reviewtutor.github.io/2ndGrade/">2nd grade</a></li>
+                                        <li><a href="https://reviewtutor.github.io/3rdGrade/">3rd grade</a></li>
+                                        <li><a href="https://reviewtutor.github.io/4thGrade/">4th grade</a></li>
+                                        <li><a href="https://reviewtutor.github.io/5thGrade/">5th grade</a></li>
+                                        <li><a href="https://reviewtutor.github.io/6thGrade/">6th grade</a></li>
+                                        <li><a href="https://reviewtutor.github.io/7thGrade/">7th grade</a></li>
+                                        <li><a href="https://reviewtutor.github.io/8thGrade/">8th grade</a></li>
+                                        <li><a href="https://reviewtutor.github.io/9thGrade/">9th grade</a></li>
+                                        <li><a href="https://reviewtutor.github.io/10thGrade/">10th grade</a></li>
+                                        <li><a href="https://reviewtutor.github.io/11thGrade/">11th grade</a></li>
+                                        <li><a href="https://reviewtutor.github.io/12thGrade/">12th grade</a></li>
+
+                                    </ul>
+                                </li>
+                                <li><a href="#">Practice Tests for Clubs</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">Future Business Leaders of America
+                                                (FBLA)</a></li>
+                                        <li><a href="#">Distributive Education Clubs of America
+                                                (Deca)</a></li>
+                                        <li><a href="#">Technology Student Association (TSA)</a></li>
+                                        <li><a href="#">Health Occupations Students of
+                                                America(HOSA)</a></li>
+                                        <li><a href="#">Science Olympiad</a></li>
+                                        <li><a href="#">Math Olympiad</a></li>
+                                        <li><a href="#">Model UN</a></li>
+
+
+                                    </ul>
+                                </li>
+                                <li><a href="#">Featured Practice</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">Geography Quiz Easy</a></li>
+                                        <li><a href="#">Geography Quiz Hard</a></li>
+                                        <li><a href="#">Math Quiz Easy</a></li>
+                                        <li><a href="#">Math Quiz Hard</a></li>
+                                        <li><a href="#">Football Quiz</a></li>
+                                        <li><a href="#">Spanish Quiz</a></li>
+                                        <li><a href="#">Random History Quiz</a></li>
+                                        <li><a href="#">General Knowledge Quiz</a></li>
+                                        <li><a href="#"></a>Periodic Table of Elements Quiz</li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Subjects</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">Math</a></li>
+                                        <li><a href="#">Science</a></li>
+                                        <li><a href="#">English Language Arts</a></li>
+                                        <li><a href="#">Social Studies</a></li>
+                                        <li><a href="#">Random Trivia</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Test Preparation</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">SAT</a></li>
+                                        <li><a href="#">ACT</a></li>
+                                        <li><a href="#">PSA</a></li>
+                                        <li><a href="#">AP Tests</a></li>
+                                        <li><a href="#">SAT Subject Tests</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="https://reviewtutor.github.io/about/">About</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <script>
+            /* Navbar mobile
+        -------------------------------------------------------*/
+
+            // Navbar mobile adds .dropdown-menu to ul.sub-menu
+            $('#st-navbar-mobile-wrapper ul.sub-menu').each(function () {
+                $(this).addClass('st-navbar-mobile-dropdown-menu');
+            });
+
+
+            // Navbar mobile toggle
+            $('.st-navbar-mobile-toggle').click(function () {
+                $(this).toggleClass('open');
+                $('.st-navbar-mobile-nav-collapse').toggleClass('in').slideToggle(230);
+                var $this = $('li.st-submenu-open');
+                if ($this.length) {
+                    $this.removeClass('st-submenu-open').children('ul.sub-menu').slideUp(230);
+                }
+                return false;
+            });
+
+
+            // Navbar mobile dropdowns
+            $('#st-navbar-mobile-wrapper .st-navbar-mobile-nav > li > ul.sub-menu').each(function () {
+                var parentWithUl = $(this).parent('li');
+                parentWithUl.addClass('st-submenu-parent');
+                parentWithUl.prepend('<a href="#" class="st-submenu-toggle"><i class="fa fa-caret-down fa-lg"></i></a>');
+                parentWithUl.children('.st-submenu-toggle').click(function (e) {
+                    e.preventDefault();
+                    var $this = $(this).parent('.st-submenu-parent');
+                    $this.siblings('li.st-submenu-open').removeClass('st-submenu-open').children('.sub-menu').slideUp(230);
+                    $('.st-navbar-mobile-nav > li > ul.sub-menu li.st-submenu-open').removeClass('st-submenu-open').children('.sub-menu').slideUp(230);
+                    $this.toggleClass('st-submenu-open');
+                    if ($this.hasClass('st-submenu-open')) {
+                        $this.children('.sub-menu').slideDown(230);
+                    } else {
+                        $this.children('.sub-menu').slideUp(230);
+                    }
+                    return false;
+                });
+            });
+            $('#st-navbar-mobile-wrapper .st-navbar-mobile-nav > li > ul.sub-menu > li > ul.sub-menu').each(function () {
+                var parentWithUl = $(this).parent('li');
+                parentWithUl.addClass('st-submenu-parent');
+                parentWithUl.prepend('<a href="#" class="st-submenu-toggle"><i class="fa fa-caret-down fa-lg"></i></a>');
+                parentWithUl.children('.st-submenu-toggle').click(function (e) {
+                    e.preventDefault();
+                    var $this = $(this).parent('.st-submenu-parent');
+                    $this.siblings('li.st-submenu-open').removeClass('st-submenu-open').children('.sub-menu').slideUp(230);
+                    $('.st-navbar-mobile-nav > li > ul.sub-menu > li > ul.sub-menu li.st-submenu-open').removeClass('st-submenu-open').children('.sub-menu').slideUp(230);
+                    $this.toggleClass('st-submenu-open');
+                    if ($this.hasClass('st-submenu-open')) {
+                        $this.children('.sub-menu').slideDown(230);
+                    } else {
+                        $this.children('.sub-menu').slideUp(230);
+                    }
+                    return false;
+                });
+            });
+            $('#st-navbar-mobile-wrapper .st-navbar-mobile-nav > li > ul.sub-menu > li > ul.sub-menu > li > ul.sub-menu').each(function () {
+                var parentWithUl = $(this).parent('li');
+                parentWithUl.addClass('st-submenu-parent');
+                parentWithUl.prepend('<a href="#" class="st-submenu-toggle"><i class="fa fa-caret-down fa-lg"></i></a>');
+                parentWithUl.children('.st-submenu-toggle').click(function (e) {
+                    e.preventDefault();
+                    var $this = $(this).parent('.st-submenu-parent');
+                    $this.siblings('li.st-submenu-open').removeClass('st-submenu-open').children('.sub-menu').slideUp(230);
+                    $this.toggleClass('st-submenu-open');
+                    if ($this.hasClass('st-submenu-open')) {
+                        $this.children('.sub-menu').slideDown(230);
+                    } else {
+                        $this.children('.sub-menu').slideUp(230);
+                    }
+                    return false;
+                });
+            });
+
+
+
+
+
+            /* Navbar mobile close menu click stage
+            -------------------------------------------------------*/
+
+            $(document).click(function () {
+                $('.st-navbar-mobile-toggle').removeClass('open');
+                $('.st-navbar-mobile-nav-collapse').slideUp(230);
+                $('.st-navbar-mobile-nav-collapse').removeClass('in');
+                $('.st-navbar-mobile-nav li.st-submenu-parent').removeClass('st-submenu-open');
+                $('.st-navbar-mobile-nav li.st-submenu-parent ul.sub-menu').slideUp(230);
+                $('.st-navbar-mobile-nav li.st-submenu-parent ul.sub-menu').css({ 'display': 'none' });
+            });
+        </script>
+    </header>
+
+
+</div>
+
+
+
+
+
+
+<nav class="container-fluid navbar1">
+    <ul class="horizontal">
+        <li class="hidden-sm hidden-xs "><a class="home" href="https://reviewtutor.github.io">Home</a></li>
+        <li class="hidden-sm hidden-xs"><a href="https://reviewtutor.github.io/contact">Contact</a></li>
+        <li class="submenu hidden-sm hidden-xs"><a href="#" title="Classes">Classes</a>
+            <ul class="megamenu">
+                <ul class="Grades ">
+                    <center>
+                        <h4 class="menuweb">Grades</h4>
+                    </center>
+                    <li class="menulist"><a class="school"
+                            href="https://reviewtutor.github.io/Kindergarten/">Kindergarten</a></li>
+                    <li class="menulist"><a class="school" href="https://reviewtutor.github.io/1stGrade/">1st Grade</a>
+                    </li>
+                    <li class="menulist"><a class="school" href="https://reviewtutor.github.io/2ndGrade/">2nd Grade</a>
+                    </li>
+                    <li class="menulist"><a class="school" href="https://reviewtutor.github.io/3rdGrade/">3rd Grade</a>
+                    </li>
+                    <li class="menulist"><a class="school" href="https://reviewtutor.github.io/4thGrade/">4th Grade</a>
+                    </li>
+                    <li class="menulist"><a class="school" href="https://reviewtutor.github.io/5thGrade/">5th Grade</a>
+                    </li>
+                    <li class="menulist"><a class="school" href="https://reviewtutor.github.io/6thGrade/">6th Grade</a>
+                    </li>
+                    <li class="menulist"><a class="school" href="https://reviewtutor.github.io/7thGrade/">7th Grade</a>
+                    </li>
+                    <li class="menulist"><a class="school" href="https://reviewtutor.github.io/8thGrade/">8th Grade</a>
+                    </li>
+                    <li class="menulist"><a class="school" href="https://reviewtutor.github.io/9thGrade/">9th Grade</a>
+                    </li>
+                    <li class="menulist"><a class="school" href="https://reviewtutor.github.io/10thGrade/">10th
+                            Grade</a></li>
+                    <li class="menulist"><a class="school" href="https://reviewtutor.github.io/11thGrade/">11th
+                            Grade</a></li>
+                    <li class="menulist"><a class="school" href="https://reviewtutor.github.io/12thGrade/">12th
+                            Grade</a></li>
+                    <li class="menulist"><a class="school" href="https://reviewtutor.github.io/SearchAll/">Search
+                            All</a></li>
+                </ul>
+                <ul>
+                    <center>
+                        <h4 class="menuweb">Practice Tests for Clubs</h4>
+                    </center>
+                    <li id="hundo" class="menulist"><a class="school" href="#">Future Business Leaders of America
+                            (FBLA)</a></li>
+                    <li id="hundo" class="menulist"><a class="school" href="#">Distributive Education Clubs of America
+                            (Deca)</a></li>
+                    <li id="hundo" class="menulist"><a class="school" href="#">Technology Student Association (TSA)</a>
+                    </li>
+                    <li id="hundo" class="menulist"><a class="school" href="#">Health Occupations Students of
+                            America(HOSA)</a></li>
+                    <li id="hundo" class="menulist"><a class="school" href="#">Science Olympiad</a></li>
+                    <li id="hundo" class="menulist"><a class="school" href="#">Math Olympiad</a></li>
+                    <li id="hundo" class="menulist"><a class="school" href="#">Model UN</a></li>
+                </ul>
+                <ul>
+                    <center>
+                        <h4 class="menuweb">Featured Practice</h4>
+                    </center>
+                    <li id="hundo" class="menulist"><a class="school" href="#">Geography Quiz Easy</a></li>
+                    <li id="hundo" class="menulist"><a class="school" href="#">Geography Quiz Hard</a></li>
+                    <li id="hundo" class="menulist"><a class="school" href="#">Math Quiz Easy</a></li>
+                    <li id="hundo" class="menulist"><a class="school" href="#">Math Quiz Hard</a></li>
+                    <li id="hundo" class="menulist"><a class="school" href="#">Football Quiz</a></li>
+                    <li id="hundo" class="menulist"><a class="school" href="#">Spanish Quiz</a></li>
+                    <li id="hundo" class="menulist"><a class="school" href="#">Random History Quiz</a></li>
+                    <li id="hundo" class="menulist"><a class="school" href="#">General Knowledge Quiz</a></li>
+                    <li id="hundo" class="menulist"><a class="school" href="#">Periodic Table of Elements Quiz</a></li>
+                </ul>
+                <ul>
+                    <center>
+                        <h4 class="menuweb">Subjects</h4>
+                    </center>
+                    <li id="hundo" class="menulist"><a class="school" href="#">Math</a></li>
+                    <li id="hundo" class="menulist"><a class="school" href="#">Science</a></li>
+                    <li id="hundo" class="menulist"><a class="school" href="#">English Language Arts</a></li>
+                    <li id="hundo" class="menulist"><a class="school" href="#">Social Studies</a></li>
+                    <li id="hundo" class="menulist"><a class="school" href="#">Random Trivia</a></li>
+                    <br>
+                    <center>
+                        <h4 class="menuweb">Test Preparation</h4>
+                    </center>
+                    <li id="hundo" class="menulist"><a class="school" href="#">SAT</a></li>
+                    <li id="hundo" class="menulist"><a class="school" href="#">ACT</a></li>
+                    <li id="hundo" class="menulist"><a class="school" href="#">PSAT</a></li>
+                    <li id="hundo" class="menulist"><a class="school" href="#">AP Tests</a></li>
+                    <li id="hundo" class="menulist"><a class="school" href="#">SAT Subject Tests</a></li>
+                </ul>
+            </ul>
+        </li>
+
+        <a class="navbar-brand hidden-sm hidden-xs" href="#">
+            <div class="logo-image">
+                <img src="https://user-images.githubusercontent.com/66401205/87966100-c2293700-ca8a-11ea-8543-7b3d7e18d16f.png"
+                    class="img-fluid" style="width: 27%;">
+            </div>
+        </a>
+        <li class="rightli about hidden-sm hidden-xs textdeconone" style="float:right"><a
+                href="https://reviewtutor.github.io/about/">About</a></li>
+    </ul>
+</nav>
+<div class="landingsection">
+    <br class="hidden-sm hidden-xs ">
+    <br class="hidden-sm hidden-xs ">
+    <br class="hidden-sm hidden-xs ">
+    <br class="hidden-sm hidden-xs ">
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+    <center>
+        <h1 class="landingheader">Study Hard,</h1>
+        <h1 class="landingheader">Review Harder!</h1>
+
+
+        <p class="landingheader">Review Tutor is a nonprofit comitted to providing education to students around the
+            world.</p>
+        <!--
+            //plan to add later
+<center>
+            <div class="button-column">
+                <div class="c1">
+                    <button class="landingbutton button2">Teachers Start Here!</button>
+                </div>
+                <div class="c1">
+                    <button class="landingbutton button2">Students Start Here!</button>
+                </div>
+                <div class="c1">
+                    <button class="landingbutton button2">Parents Start Here!</button>
+                </div>
+            </div>
+        </center>
+        -->
+
+
+
+        <div class="hidden-sm hidden-xs">
+            <div class="bottomleft">
+                <a href="#EFASect">
+                    <div class="columnbottom">
+                        <br>
+                        <img class="hidden-sm hidden-xs"
+                            src="https://user-images.githubusercontent.com/66401205/89742810-33954d80-da6b-11ea-9698-3aab9b6bfd19.png"
+                            style="width:75%">
+                    </div>
+                </a>
+                <a href="#EFASect">
+                    <div class="columnbottom">
+                        <br>
+                        <h1 class="EFA">We Support "Education For All!"</h1>
+                    </div>
+                </a>
+            </div>
+            <script>
+                $(document).ready(function () {
+                    // Add smooth scrolling to all links
+                    $("a").on('click', function (event) {
+
+                        // Make sure this.hash has a value before overriding default behavior
+                        if (this.hash !== "") {
+                            // Prevent default anchor click behavior
+                            event.preventDefault();
+
+                            // Store hash
+                            var hash = this.hash;
+
+                            // Using jQuery's animate() method to add smooth page scroll
+                            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                            $('html, body').animate({
+                                scrollTop: $(hash).offset().top - 150
+
+                            }, 1000, function () {
+
+                                // Add hash (#) to URL when done scrolling (default click behavior)
+                                window.location.hash = hash;
+                            });
+                        } // End if
+                    });
+                });
+            </script>
+        </div>
+</div>
+
+<body>
+    <main>
+
+        <div class="section1">
+            <br>
+            <center>
+                <h1 class="Title3">What We Do</h1>
+            </center>
+            <div class="column1">
+                <center>
+                    <p class="What">Review Tutor works to educate students around the world, striving to make an impact
+                        that can last a lifetime.
+                        We provide one-on-one and group tutoring sessions to help students master skills and topics.
+                        We also make innovative learning quizzes that make learning so much more fun and easy!
+                    </p>
+                    <button class="btn btn-black">
+                        <a href="https://reviewtutor.github.io/signup/" class="btn-black">
+                            Sign up for a Tutor!
+                        </a>
+                    </button>
+                </center>
+            </div>
+            <div class="column1">
+                <center>
+                    <br class="hidden-lg hidden-md">
+                    <br class="hidden-lg hidden-md">
+                    <br class="hidden-lg hidden-md hide1">
+                    <br class="hidden-lg hidden-md hide1">
+                    <br class="hidden-lg hidden-md hide1">
+                    <br class="hidden-lg hidden-md hide1">
+                    <br class="hidden-lg hidden-md hide1">
+                    <br class="hidden-lg hidden-md hide1">
+                    <br class="hidden-lg hidden-md hide1">
+                    <br class="hidden-lg hidden-md hide1">
+                    <img class="dodrawing"
+                        src="https://user-images.githubusercontent.com/66401205/102699770-556ec000-4215-11eb-8bbf-a1f1f0d8e66d.jpeg">
+                </center>
+
+            </div>
+        </div>
+        <br>
+        <br>
+        <br class="hidden-lg hidden-md">
+        <br class="hidden-lg hidden-md">
+        <br class="hide2">
+        <br class="hide2">
+        <br class="hide2">
+        <br class="hidden-lg hidden-md hide1">
+        <br class="hidden-lg hidden-md hide1">
+
+        <div class="section222 hide1">
+            <center>
+                <br>
+                <h1>Our Mission</h1>
+            </center>
+            <div id="card" class="column moveup">
+                <center>
+
+                    <img src="https://user-images.githubusercontent.com/66401205/85340535-44d2cc80-b4b4-11ea-80f1-dcd406b2e372.png"
+                        style="width:35%">
+
+                    <h3>Spread Knowledge!</h3>
+                    <p>In our tutoring sessions, groups work together to solve problems and teach each other with the
+                        help of tutors.
+                        Our quizzes provide information in all areas from the "ABC's" to Geography to Algebra.
+                        Imagine how smart our world would be if everyone shared knowledge.
+                    </p>
+                </center>
+                <br class="hidden-md hidden-lg">
+                <br class="hidden-md hidden-lg">
+                <br class="hidden-md hidden-lg">
+            </div>
+            <div id="card" class="column">
+                <center>
+                    <img src="https://user-images.githubusercontent.com/66401205/85340582-5caa5080-b4b4-11ea-9ba4-e9ca9028bac5.png"
+                        style="width:35%">
+                    <h3>Connect With Others!</h3>
+                    <p>Believe it or not, connecting with other can give you a sense of being open, this being said
+                        Review Tutor not only allows you to lern more freely, but also to
+                        connect with other people who share the same passion and goal.
+                    </p>
+                </center>
+                <br class="hidden-md hidden-lg">
+                <br class="hidden-md hidden-lg">
+                <br class="hidden-md hidden-lg">
+            </div>
+
+
+            <div id="card" class="column">
+                <center>
+                    <br class="hidden-md hidden-lg">
+                    <br class="hidden-md hidden-lg">
+                    <img src="https://user-images.githubusercontent.com/66401205/85340635-7055b700-b4b4-11ea-9c34-6de06350128c.png"
+                        style="width:35%">
+                    <h3>Help Teachers and Learners!</h3>
+                    <p>Our quizzes can help teachers with resources to review for upcoming tests, and even AP Exams.</p>
+                </center>
+                <br class="hidden-md hidden-lg">
+                <br class="hidden-md hidden-lg">
+                <br class="hidden-md hidden-lg">
+            </div>
+        </div>
+
+
+        <div class="section222 hide2">
+            <center>
+                <br>
+                <h1>Our Mission</h1>
+            </center>
+            <div id="card">
+                <center>
+                    <div class="column-landscape1">
+                        <br>
+
+                        <h3>Spread Knowledge!</h3>
+                        <p>Our quizzes provide information in all areas from the "ABC's" to Geography
+                            to Algebra. Imagine how smart our world would be if everyone shared knowledge.
+                        </p>
+                    </div>
+                    <div class="column-landscape1">
+                        <br>
+                        <br>
+
+                        <img src="https://user-images.githubusercontent.com/66401205/85340535-44d2cc80-b4b4-11ea-80f1-dcd406b2e372.png"
+                            style="width:85%">
+                    </div>
+                </center>
+
+            </div>
+            <div id="card">
+                <center>
+                    <div class="column-landscape1">
+                        <br>
+                        <h3>Connect With Others!</h3>
+                        <p>Believe it or not, the more knowledge you know, easier it is to have interesting
+                            conversations
+                            with
+                            people you probably wouldn't talk to.
+                        </p>
+                    </div>
+                    <div class="column-landscape1">
+                        <br>
+                        <br>
+                        <img src="https://user-images.githubusercontent.com/66401205/85340582-5caa5080-b4b4-11ea-9ba4-e9ca9028bac5.png"
+                            style="width:80%">
+                    </div>
+                </center>
+
+            </div>
+
+
+            <div id="card">
+                <center>
+                    <div class="column-landscape1">
+                        <h3>Help Teachers and Learners!</h3>
+                        <p>Our quizzes can help teachers with resources to review for upcoming tests, and even AP Exams.
+                        </p>
+                    </div>
+                    <div class="column-landscape1">
+                        <br>
+                        <img src="https://user-images.githubusercontent.com/66401205/85340635-7055b700-b4b4-11ea-9c34-6de06350128c.png"
+                            style="width:90%">
+                    </div>
+                </center>
+            </div>
+        </div>
+
+        <div class="section11111">
+            <br>
+            <center>
+                <h1 class="Title3">Project<sup>30</sup> by Review Tutor</h1>
+            </center>
+            <div class="column1">
+                <center>
+                    <p class="What"><strong>
+                            30 Days. 30 Students. 30 Learners.
+                        </strong></p>
+                    <p class="What">Project<sup>30</sup> is a program working to connect a community of student learners
+                        and tutors.
+                        We believe that sharing knowledge is essential for success.
+                        Project<sup>30</sup> will match 30 students to 30 tutors in a 30 day long program where tutors
+                        will aid students in grade-level academics.
+                        Lets connect through education!</p>
+                    <div class="hidden-sm hidden-xs">
+                        <div class="column1">
+                            <button class="btn btn-black">
+
+                                <a href="https://www.reviewtutor.org/Project30-Tutor_Application/" target="_blank" class="btn-black">
+                                    Become a Tutor for Project<sup>30</sup>!
+                                </a>
+                            </button>
+                        </div>
+                        <div class="column1">
+                            <button class="btn btn-black">
+                                <a href="https://www.reviewtutor.org/Project30-Student_Application/" target="_blank"class="btn-black">
+                                    Become a Student for Project<sup>30</sup>!
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="buttonp30 hidden-md hidden-lg">
+                        <button class="btn btn-black">
+
+                            <a href="https://www.reviewtutor.org/Project30-Tutor_Application/" target="_blank" class="btn-black">
+                                Become a Tutor for Project<sup>30</sup>!
+                            </a>
+                        </button>
+                        <br>
+                        <button class="btn btn-black">
+                            <a href="https://www.reviewtutor.org/Project30-Student_Application/" target="_blank" class="btn-black">
+                                Become a Student for Project<sup>30</sup>!
+                            </a>
+                        </button>
+                    </div>
+
+                </center>
+            </div>
+            <div class="column1">
+                <center>
+                    <br class="hidden-lg hidden-md">
+                    <br class="hidden-lg hidden-md">
+                    <br class="hidden-lg hidden-md">
+                    <br class="hidden-lg hidden-md">
+                    <br class="hidden-lg hidden-md">
+                    <br class="hidden-lg hidden-md">
+                    <br class="hidden-lg hidden-md">
+                    <br class="hidden-lg hidden-md">
+                    <br class="hidden-lg hidden-md">
+                    <br class="hide1 hidden-lg hidden-md">
+                    <br class="hide1 hidden-lg hidden-md">
+                    <br class="hide1 hidden-lg hidden-md">
+                    <br class="hide1 hidden-lg hidden-md">
+                    <br class="hide1 hidden-lg hidden-md">
+                    <br class="hide1 hidden-lg hidden-md">
+                    <br class="hide1 hidden-lg hidden-md">
+                    <br class="hide1 hidden-lg hidden-md">
+                    <br class="hide1 hidden-lg hidden-md">
+                    <br class="hide1 hidden-lg hidden-md">
+                    <br class="hide1 hidden-lg hidden-md">
+                    <br class="hide1 hidden-lg hidden-md">
+                    <br class="hide1 hidden-lg hidden-md">
+
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/-xZs7cKxEJs" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </center>
+
+            </div>
+        </div>
+
+        <div id="section5" class="section333">
+
+            <div id="phonebg" class="column1">
+                <div id="backgroundphone">
+                </div>
+            </div>
+            <br class="hidden-sm hidden-xs">
+            <div class="section-column">
+                <!--
+                            <h4 class="families__header">How can you help?</h4>
+                        <p class="iphonetext">Submit your own quizzes and contribute your knowledge to the Review
+                        Tutors!</p>
+                        -->
+                <br>
+                <br class="hidden-md hidden-lg hide2">
+                <br class="hidden-md hidden-lg hide2">
+                <br class="hidden-md hidden-lg hide2">
+                <br class="hidden-md hidden-lg hide2">
+                <br class="hidden-md hidden-lg hide2">
+                <br class="hidden-md hidden-lg hide2">
+                <br class="hidden-md hidden-lg hide2">
+                <br class="hidden-md hidden-lg hide2">
+                <br class="hidden-md hidden-lg hide2">
+                <br class="hidden-md hidden-lg hide2">
+                <br class="hidden-md hidden-lg hide2">
+
+                <h4 class="families__header">Reviewing for a big test?</h4>
+                <p class="iphonetext">Browse our directory of
+                    quizzes to see if we can help you.
+                    Our ten question quizzes provide a quick informational review... perfect to jog up your
+                    memory right before a test.</p>
+                <button class="btn btn-black">
+                    <a href="https://reviewtutor.github.io/SearchAll/" class="btn-black">
+                        Search All
+                    </a>
+                </button>
+
+
+            </div>
+        </div>
+        <br class="hidden-sm hidden-xs">
+        <br class="hidden-sm hidden-xs">
+        <br class="hidden-sm hidden-xs">
+        <br class="hidden-sm hidden-xs">
+        <br class="hidden-sm hidden-xs">
+        <div id="sect" class="section111 hide2">
+            <div class="row">
+                <div class="column456">
+                    <center>
+                        <img class="animate__animated animate__backInLeft img1 hidden-lg hidden-md"
+                            src="https://user-images.githubusercontent.com/66401205/84579681-e6b03600-ad9d-11ea-9fa4-811afeeffcad.png"
+                            style="width:100%">
+                    </center>
+
+                </div>
+                <div class="column45">
+                    <center>
+                        <img class="animate__animated animate__backInLeft img1 hidden-lg hidden-md"
+                            src="https://user-images.githubusercontent.com/66401205/85236240-4041e180-b3ea-11ea-932e-694d1e78cc00.png"
+                            style="width:100%">
+                    </center>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div id="sect" class="section111 hide1">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="first-column">
+                        <br>
+                        <br>
+                        <br>
+                        <center>
+                            <img class="animate__animated animate__backInLeft img1 hidden-lg hidden-md"
+                                src="https://user-images.githubusercontent.com/66401205/84579681-e6b03600-ad9d-11ea-9fa4-811afeeffcad.png"
+                                style="width:90%">
+                            <img class="animate__animated animate__backInLeft img1 hidden-sm hidden-xs"
+                                src="https://user-images.githubusercontent.com/66401205/84579681-e6b03600-ad9d-11ea-9fa4-811afeeffcad.png"
+                                style="width:70%">
+                        </center>
+                    </div>
+                    <br>
+                    <center>
+                        <div class="second-column animate__animated animate__backInRight img1">
+                        </div>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="EFASect">
+            <div id="section4" class="section33">
+                <br>
+                <center>
+                    <h1 class="Title2">Who We Support...</h1>
+                </center>
+                <div class="column1">
+                    <center>
+                        <img class="EFAIMG"
+                            src="https://user-images.githubusercontent.com/66401205/103959854-ca4f5e80-511e-11eb-98da-97f5afa274ea.png">
+
+                    </center>
+                </div>
+                <div class="column1">
+                    <center>
+                        <h1 class="EFATitle">Education For All</h1>
+                        <p class="EFAtext1">Education for All focuses on rural outreach programs which provide quality
+                            education free of charge to children from all walks
+                            of life irrespective of cast, creed, religion or any other background. In many countries
+                            including India, quality education is no
+                            longer affordable to the general public while private institutions charge hefty fees and
+                            often also require large donations.
+                            "Our goal is to provide free quality education to qualified children along with free food
+                            and shelter to those children who cannot
+                            afford it."</p>
+                        <button class="btn btn-black">
+                            <a href="https://www.educationforall.co" class="btn-black">
+                                Education for All
+                            </a>
+                        </button>
+
+                    </center>
+                </div>
+
+            </div>
+        </div>
+        <div class="section22">
+            <br class="hidden-lg hidden-md">
+            <div class="column1">
+                <center>
+                    <img class="hidden-sm hidden-xs"
+                        src="https://user-images.githubusercontent.com/66401205/87088034-1833ea00-c202-11ea-81e8-0f24b1de66fc.png"
+                        style="width:75%">
+                    <img class="hidden-lg hidden-md hide1"
+                        src="https://user-images.githubusercontent.com/66401205/87088034-1833ea00-c202-11ea-81e8-0f24b1de66fc.png"
+                        style="width:100%">
+                    <img class="hide2 landscapeimg"
+                        src="https://user-images.githubusercontent.com/66401205/87088034-1833ea00-c202-11ea-81e8-0f24b1de66fc.png"
+                        style="width:70%">
+                </center>
+            </div>
+            <br>
+            <div class="column1">
+                <center>
+                    <br>
+                    <br>
+                    <br class="hidden-lg hidden-md">
+                    <br class="hidden-lg hidden-md">
+                    <br class="hidden-lg hidden-md">
+                    <div class="box">
+                        <img class="laptop"
+                            src="https://user-images.githubusercontent.com/66401205/87069575-6f779180-c1e5-11ea-92c6-4e635ee2f4ed.png">
+                        <div class="typewriter text">
+                            <h1> <span class="blue">&lt;h1&gt;</span> Who we are... <span
+                                    class="blue">&lt;/h1&gt;</span> </h1>
+                            <div class="container py-5">
+                                <div class="output" id="output">
+                                    <h1 class="cursor"></h1>
+                                    <p class="typewriter"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <script>
+
+                            // values to keep track of the number of letters typed, which quote to use. etc. Don't change these values.
+                            var i = 0,
+                                a = 0,
+                                isBackspacing = false,
+                                isParagraph = false;
+
+                            // Typerwrite text content. Use a pipe to indicate the start of the second line "|".  
+                            var textArray = [
+                                "|Children",
+                                "|Entrepreneurs",
+                                "|Coders",
+                                "|Designers",
+                                "|Teachers",
+                                "|Learners",
+                            ];
+
+                            // Speed (in milliseconds) of typing.
+                            var speedForward = 100, //Typing Speed
+                                speedWait = 1200, // Wait between typing and backspacing
+                                speedBetweenLines = 2500, //Wait between first and second lines
+                                speedBackspace = 25; //Backspace Speed
+
+                            //Run the loop
+                            typeWriter("output", textArray);
+
+                            function typeWriter(id, ar) {
+                                var element = $("#" + id),
+                                    aString = ar[a],
+                                    eHeader = element.children("h1"), //Header element
+                                    eParagraph = element.children("p"); //Subheader element
+
+                                // Determine if animation should be typing or backspacing
+                                if (!isBackspacing) {
+
+                                    // If full string hasn't yet been typed out, continue typing
+                                    if (i < aString.length) {
+
+                                        // If character about to be typed is a pipe, switch to second line and continue.
+                                        if (aString.charAt(i) == "|") {
+                                            isParagraph = true;
+                                            eHeader.removeClass("cursor");
+                                            eParagraph.addClass("cursor");
+                                            i++;
+                                            setTimeout(function () { typeWriter(id, ar); }, speedBetweenLines);
+
+                                            // If character isn't a pipe, continue typing.
+                                        } else {
+                                            // Type header or subheader depending on whether pipe has been detected
+                                            if (!isParagraph) {
+                                                eHeader.text(eHeader.text() + aString.charAt(i));
+                                            } else {
+                                                eParagraph.text(eParagraph.text() + aString.charAt(i));
+                                            }
+                                            i++;
+                                            setTimeout(function () { typeWriter(id, ar); }, speedForward);
+                                        }
+
+                                        // If full string has been typed, switch to backspace mode.
+                                    } else if (i == aString.length) {
+
+                                        isBackspacing = true;
+                                        setTimeout(function () { typeWriter(id, ar); }, speedWait);
+
+                                    }
+
+                                    // If backspacing is enabled
+                                } else {
+
+                                    // If either the header or the paragraph still has text, continue backspacing
+                                    if (eHeader.text().length > 0 || eParagraph.text().length > 0) {
+
+                                        // If paragraph still has text, continue erasing, otherwise switch to the header.
+                                        if (eParagraph.text().length > 0) {
+                                            eParagraph.text(eParagraph.text().substring(0, eParagraph.text().length - 1));
+                                        } else if (eHeader.text().length > 0) {
+                                            eParagraph.removeClass("cursor");
+                                            eHeader.addClass("cursor");
+                                            eHeader.text(eHeader.text().substring(0, eHeader.text().length - 1));
+                                        }
+                                        setTimeout(function () { typeWriter(id, ar); }, speedBackspace);
+
+                                        // If neither head or paragraph still has text, switch to next quote in array and start typing.
+                                    } else {
+
+                                        isBackspacing = false;
+                                        i = 0;
+                                        isParagraph = false;
+                                        a = (a + 1) % ar.length; //Moves to next position in array, always looping back to 0
+                                        setTimeout(function () { typeWriter(id, ar); }, 50);
+
+                                    }
+                                }
+                            }
+                        </script>
+                        <a id="learn" class="text1" href="https://reviewtutor.github.io/about/">
+                            <button class="button1" style="--content: 'Learn More!';"
+                                href="https://reviewtutor.github.io/about/">
+                                <div class="left"></div>
+                                Learn More!
+                                <div class="right"></div>
+                            </button>
+                        </a>
+
+                    </div>
+            </div>
+        </div>
+        </center>
+
+
+
+
+        <hr>
+        <footer id="hundred" class="container-fluid ">
+            <div class=" hidden-sm hidden-xs">
+                <div class="column1">
+                    <div class="column55 ">
+                        <a class="hidden-sm hidden-xs" href="https://reviewtutor.github.io">
+                            <img id="resize1" class="footerlogo"
+                                src="https://user-images.githubusercontent.com/66401205/86849682-104b3d00-c07e-11ea-8b08-f2c5ebf04d01.png">
+                        </a>
+                    </div>
+                    <div class="contact">
+                        <div class="column555">
+                            <a class="abcd" href="https://twitter.com/reviewtutor">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="column555">
+                            <a class="abcd" href="https://www.instagram.com/reviewtutor.co/">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="column555">
+                            <a class="abcd" href="mailto:reviewtutors@gmail.com">
+                                <i class="far fa-envelope"></i>
+                            </a>
+                        </div>
+                        <div class="column555">
+                            <a class="abcd" href="https://www.linkedin.com/company/review-tutor-corporation">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                        <div class="column555">
+                            <a class="abcd" href="https://www.facebook.com/review.tutor.9/">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <center>
+                        <div class="column66">
+                            <p class="footerlink"><a class="footerlink"
+                                    href="https://reviewtutor.github.io/home">Home</a></p>
+                            <p class="footerlink"><a class="footerlink"
+                                    href="https://reviewtutor.github.io/contact">Contact</a></p>
+                            <p class="footerlink"><a class="footerlink"
+                                    href="https://reviewtutor.github.io/about">About</a></p>
+                            <p class="footerlink"> <a class="footerlink"
+                                    href="https://reviewtutor.github.io/signup/">Sign Up</a></p>
+                        </div>
+                        <div class="column66">
+                            <p class="footerlink"><a class="footerlink"
+                                    href="https://reviewtutor.github.io/SearchAll/">Search All</a></p>
+                            <p class="footerlink"><a class="footerlink"
+                                    href="https://reviewtutor.github.io/about">Donate</a></p>
+                            <p class="footerlink"><a class="footerlink"
+                                    href="https://reviewtutor.github.io/about">TOS</a></p>
+                            <p class="footerlink"> <a class="footerlink"
+                                    href="https://reviewtutor.github.io/Privacy-Policy/">Privacy</a></p>
+
+                            <br>
+                            <br>
+                        </div>
+
+                    </center>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="Copyright">
+                        <br class="hidden-md hidden-lg">
+                        <br class="hidden-md hidden-lg">
+                        <br class="hidden-md hidden-lg">
+                        <br class="hidden-md hidden-lg">
+                        <br class="hidden-md hidden-lg">
+                        <br class="hidden-md hidden-lg">
+                        <br class="hidden-md hidden-lg">
+                        <br class="hidden-md hidden-lg">
+                        <br class="hidden-md hidden-lg">
+                        <br class="hidden-md hidden-lg">
+                        <br class="hidden-md hidden-lg">
+                        <br class="hidden-md hidden-lg">
+                        <br class="hidden-md hidden-lg">
+                        <br class="hidden-md hidden-lg">
+                        <br class="hidden-md hidden-lg">
+                        <br class="hidden-md hidden-lg">
+                        <br class="hidden-md hidden-lg">
+                        <br class="hidden-md hidden-lg">
+                        <br class="hidden-md hidden-lg">
+                        <br class="hidden-md hidden-lg">
+                        <br class="hidden-md hidden-lg">
+                        <br class="hidden-md hidden-lg">
+                        <br class="hidden-md hidden-lg hidden-sm">
+                        <br class="hidden-md hidden-lg hidden-sm">
+                        <br class="hidden-md hidden-lg hidden-sm">
+                        <center>
+                            <p class="footer1">Copyright &#169;
+                                <script>document.write(new Date().getFullYear());</script>, Review Tutor
+                            </p>
+                        </center>
+                    </div>
+                </div>
+                <br class="hidden-sm hidden-xs">
+                <br class="hidden-sm hidden-xs">
+                <br class="hidden-sm hidden-xs">
+                <br class="hidden-sm hidden-xs">
+                <span class="vertical-line hidden-sm hidden-xs"></span>
+            </div>
+            <div class=" hidden-lg hidden-md">
+                <a href="https://reviewtutor.github.io">
+                    <img id="resize11" class="footerlogo"
+                        src="https://user-images.githubusercontent.com/66401205/86850543-71bfdb80-c07f-11ea-8590-5c589386c84c.png">
+                </a>
+                <br>
+                <center>
+                    <div class="contact1">
+
+                        <div class="column555">
+                            <a class="abcd" href="https://twitter.com/reviewtutor">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="column555">
+                            <a class="abcd" href="https://www.instagram.com/reviewtutor.co/">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="column555">
+                            <a class="abcd" href="mailto:reviewtutors@gmail.com">
+                                <i class="far fa-envelope"></i>
+                            </a>
+                        </div>
+                        <div class="column555">
+                            <a class="abcd" href="https://www.linkedin.com/company/review-tutor-corporation">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                        <div class="column555">
+                            <a class="abcd" href="https://www.facebook.com/review.tutor.9/">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </div>
+                        <center>
+                            <br class="hidden-md hidden-lg">
+                            <br class="hidden-md hidden-lg">
+                            <br class="hidden-md hidden-lg">
+                            <br class="hidden-md hidden-lg">
+                            <div id="column66" class="column66">
+                                <p class="footerlink"><a class="footerlink"
+                                        href="https://reviewtutor.github.io/home">Home</a></p>
+                                <p class="footerlink"><a class="footerlink"
+                                        href="https://reviewtutor.github.io/contact">Contact</a></p>
+                                <p class="footerlink"><a class="footerlink"
+                                        href="https://reviewtutor.github.io/about">About</a></p>
+                                <p class="footerlink"> <a class="footerlink"
+                                        href="https://reviewtutor.github.io/signup/">Sign Up</a></p>
+                            </div>
+                            <div id="column66" class="column66">
+                                <p class="footerlink"><a class="footerlink"
+                                        href="https://reviewtutor.github.io/SearchAll/">Search All</a></p>
+                                <p class="footerlink"><a class="footerlink"
+                                        href="https://reviewtutor.github.io/about">Donate</a></p>
+                                <p class="footerlink"><a class="footerlink"
+                                        href="https://reviewtutor.github.io/about">TOS</a></p>
+                                <p class="footerlink"> <a class="footerlink"
+                                        href="https://reviewtutor.github.io/Privacy-Policy/">Privacy</a></p>
+                                <br>
+                                <br>
+                            </div>
+                        </center>
+                    </div>
+            </div>
+
+            <br class="hidden-md hidden-lg">
+            <br class="hidden-md hidden-lg">
+            <br class="hidden-md hidden-lg">
+            <br class="hidden-md hidden-lg">
+            <br class="hidden-md hidden-lg">
+            <br class="hidden-md hidden-lg">
+            <br class="hidden-md hidden-lg">
+            <br class="hidden-md hidden-lg">
+            <br class="hidden-md hidden-lg">
+            <br class="hidden-md hidden-lg">
+
+            <div class="column33">
+                <br class="hidden-md hidden-lg hide1">
+                <br class="hidden-md hidden-lg hide1">
+                <br class="hidden-md hidden-lg hide1">
+                <br class="hidden-md hidden-lg hide1">
+
+                <h1 class="footerwhite" id="hidden">Subscribe to Review Tutor</h1>
+                <h3 class="footerwhite1" id="hidden">Be the first to know about our new quizzes.</h3>
+                <br>
+                <div class="form">
+                    <form id="form" target="_self" onsubmit="return postToGoogle();" action="" autocomplete="off">
+                        <input id="emailField" name="entry.2109926796" type="email" placeholder="Enter your email"
+                            required><br>
+                        <button id="send" type="submit" class="common_btn">SIGN UP</button>
+                    </form>
+                </div>
+                <h3 id="success-msg">
+                    <br>
+                    <br class="hidden-lg hidden-md">
+                    Thanks for subscribing!
+                </h3>
+
+
+                <script>
+                    function postToGoogle() {
+                        var field1 = $("#emailField").val();
+
+                        if (field1 == "") {
+                            alert('Please enter your email');
+                            document.getElementById("emailField").focus();
+                            return false;
+                        }
+
+
+
+                        $.ajax({
+                            url: "https://docs.google.com/forms/d/e/1FAIpQLSfXt0nUDlWFXKpCI50Po2NHchQy3N1An5XwSGtq5yxxo21M6A/formResponse?",
+                            data: { "entry.2109926796": field1, },
+                            type: "POST",
+                            dataType: "xml",
+                            success: function (d) {
+                            },
+                            error: function (x, y, z) {
+
+                                $('#success-msg').show();
+                                $('#form, #hidden').hide();
+
+                            }
+                        });
+                        return false;
+                    }
+                </script>
+                <p class="footer hidden-md hidden-lg"><br><br><br><br><br>
+                    Copyright &#169;
+                    <script>document.write(new Date().getFullYear());</script>, Review Tutor
+                </p>
+            </div>
+            <br>
+
+        </footer>
+
+
+        </div>
+    </main>
+</body>
+
+</html>
